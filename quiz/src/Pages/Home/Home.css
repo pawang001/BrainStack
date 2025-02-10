@@ -1,0 +1,37 @@
+.home{
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.welcome span{
+    color: rgb(40, 136, 40);
+}
+
+.welcome p{
+    font-size: 18px;
+}
+
+.join{
+    margin-top: 50px;
+}
+
+.join button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.join button:hover {
+    background-color: #45a049;
+}

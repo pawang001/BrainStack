@@ -1,0 +1,104 @@
+.quizzes{
+    text-align: center;
+    padding: 20px;
+}
+
+.quizzes-container {
+    width: 800px;
+    margin: 50px auto; 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.topic-container ul {
+    list-style: none;
+    width: 400px;
+}
+
+.topic-container ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    color: black;
+    border-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.topic-container ul li span {
+    display: none;
+}
+
+.topic-container ul li:hover {
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.02);
+}
+
+.topic-container ul li.selected {
+    background-color: #4caf50;
+    color: white;
+}
+
+.topic-container ul li img {
+    margin-left: 10px;
+    width: 35px;
+    border: #333;
+}
+
+.number-of-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-of-questions ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.number-of-questions ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    color: black;
+    border-color: #333;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.number-of-questions ul li:hover {
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.02);
+}
+
+.number-of-questions ul li.selected {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+.number-of-questions button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.number-of-questions button:hover {
+    background-color: #45a049;
+}

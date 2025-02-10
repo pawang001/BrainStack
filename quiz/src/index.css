@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#0000007e, #0000007e), url(/src/assets/background.jpg);
+    color: CanvasText;
+    color-scheme: light dark;
+    font-family: 'poppins', sans-serif;
+}
